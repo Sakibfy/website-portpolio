@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_title{
+  background-image: url('../images/developer.png'), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 223px;
+}
+.nav_title{
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.font_style{
+  color: #FD6E0A;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #181818;
+}
+
+.btn{
+  background: #FD6E0A;
+  padding: 18px 35px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+/* -----banner area------ */
+.banner_area{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+
+.left_side{
+  margin-top: 180px;
+  width: 570px; 
+}
+
+.sub_title{
+  font-size: 45px;
+  font-weight: 600;
+  color:#675b5b ;
+}
+
+.main_tilte{
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.banner_img{
+  width: 584px;
+}
+.discription{
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.btn1{
+  background: #FD6E0A;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn2{
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid #FD6E0A;
+  font-weight: bold;
+  color: #FD6E0A;
+  margin: 0 15px;
+}
+
+.section_title{
+  text-align: center;
+  font-size: 35px;
+  color: #181818;
+
+}
+.section_description{
+  font-size: 18px;
+  color: #757575;
+  margin-top: 30px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+  
+  }
+  main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  .about_secondary_bg{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    /* background: #FD6E0A; */
+  } 
+  
+  .about_items{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+   
+  }
+   .about_item{
+    padding: 3px;
+   }
+
+  .item_description{
+    font-weight: 800;
+  }
