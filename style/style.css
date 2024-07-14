@@ -286,6 +286,10 @@ main{
     margin-left: 30px;
   }
 
+  .resume_column{
+    margin: 40px;
+  }
+
   .footer_area{
     flex-direction: column;
     padding: 20px; 
@@ -333,16 +337,22 @@ font-size: 10px;
 }
 
 nav{
- margin: 20px;
+ margin: 10px;
 }
 
 nav ul{
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
+nav ul li{
+margin-right: 20px;  
+}
+
+
 nav .btn{
-  padding: 2px;
-  border-radius: 2px;
+  padding: 4px 16px;
+  border-radius: 6px;
+  font-size: 16px;
 }
 }
 
